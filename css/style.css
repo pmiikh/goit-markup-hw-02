@@ -273,6 +273,7 @@ body{
     letter-spacing: 0.04em;
 
     color: #4D5AE5;
+    cursor: pointer;
 }
 
 .offer-btn:active,
