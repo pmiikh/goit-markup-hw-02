@@ -1,6 +1,7 @@
 :root {
     --main-color: #FFFFFF;
     --logo-web-color:#4d5ae5;
+    --main-color-dark:  #2e2f42;
   }
 
 body{
@@ -41,7 +42,7 @@ body{
 }
 
 .logo-studio{
-    color: #2E2F42;
+    color: var(--main-color-dark);
 }
 
 /* navigation */
@@ -53,7 +54,7 @@ body{
     line-height: 24px;
     letter-spacing: 0.02em;
 
-    color: #2E2F42;
+    color: var(--main-color-dark);
 }
 
 
@@ -79,7 +80,7 @@ body{
     top: 72px;
     text-align: center;
 
-    background:  #2E2F42;
+    background:  var(--main-color-dark);
 }
 
 .main-title{
@@ -133,6 +134,7 @@ body{
     line-height: 24px;
    
     letter-spacing: 0.02em;
+    color: var(--main-color-dark);
 }
 
 .prop-p{
@@ -150,11 +152,16 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
 
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--main-color-dark);
+}
+
+.team-page{
+    background-color: #F4F4FD;
 }
 
 .team-heading{
@@ -162,11 +169,16 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
 
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--main-color-dark);
+}
+
+.card{
+    background-color: var(--main-color);
 }
 
 .card-name{
@@ -178,6 +190,7 @@ body{
 
     text-align: center;
     letter-spacing: 0.02em;
+    color: var(--main-color-dark);
 }
 
 .card-descr{
@@ -199,7 +212,7 @@ body{
     left: 0px;
     top: 2280px;
 
-    background: #2E2F42;
+    background: var(--main-color-dark);
 }
 
 .footer-logo{
