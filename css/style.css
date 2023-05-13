@@ -9,8 +9,17 @@ body{
     color: #434455;
 }
 
-ul {
-    list-style-type:none;
+.link {
+    text-decoration:none;
+}
+
+.link:hover, 
+.link:focus{
+    color:#404BBF   
+}
+
+.list{
+    list-style-type: none;
 }
 
 /* logo */
@@ -36,9 +45,7 @@ ul {
 }
 
 /* navigation */
-.nav-link{
-    text-decoration: none;
-
+.nav{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -49,12 +56,9 @@ ul {
     color: #2E2F42;
 }
 
-.nav-link:hover, 
-.nav-link:focus{
-    color:#404BBF   
-}
 
-.address-link{
+
+.address{
     text-decoration: none;
 
     font-family: 'Roboto';
@@ -66,14 +70,6 @@ ul {
 
     color: #434455;
 }
-
-
-.address-link:hover, 
-.address-link:focus{
-    color:#404BBF   
-}
-
-
 
 /* main page */
 .main-page{
