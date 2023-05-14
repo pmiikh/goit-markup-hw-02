@@ -72,6 +72,11 @@ body{
     color: var(--main-text-color);
 }
 
+.address-link:hover,
+.address-link:focus{
+    color: var(--hover-color);
+}
+
 /* main page */
 .main-page{
     width: 1440px;
