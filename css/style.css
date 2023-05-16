@@ -1,3 +1,28 @@
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,li{
+    margin: 0;
+}
+
+.section{
+    width: 1158px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
+
 :root {
     --main-color-dark:  #2e2f42;
     --main-color: #FFFFFF;
@@ -25,7 +50,7 @@ body{
     list-style-type: none;
 }
 
-/* logo */
+/* --------------------logo------------------------*/
 .logo{
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -35,6 +60,9 @@ body{
     line-height: 1.17;
 
     color: var(--logo-web-color);
+
+    padding-top: 24px;
+    padding-bottom: 24px;
     
    
 }
@@ -43,7 +71,7 @@ body{
     color: var(--main-color-dark);
 }
 
-/* navigation */
+/* -------------------navigation----------------- */
 .nav-link{
     font-weight: 500;
     font-size: 16px;
@@ -51,6 +79,9 @@ body{
     letter-spacing: 0.02em;
 
     color: var(--main-color-dark);
+
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .nav-link:hover, 
@@ -70,6 +101,9 @@ body{
     letter-spacing: 0.02em;
 
     color: var(--main-text-color);
+
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .address-link:hover,
@@ -77,13 +111,13 @@ body{
     color: var(--hover-color);
 }
 
-/* main page */
+/*--------------------------- main page ----------------------------*/
 .main-page{
-    width: 1440px;
+    /* width: 1440px;
     height: 600px;
     left: 0px;
     top: 72px;
-    text-align: center;
+    text-align: center; */
 
     background:  var(--main-color-dark);
 }
@@ -97,6 +131,11 @@ body{
     letter-spacing: 0.02em;
 
     color: var(--main-color);
+
+    padding-top: 188px;
+    margin-bottom: 48px;
+
+    
 }
 
 .main-btn{
@@ -113,12 +152,20 @@ body{
 
     color: var(--main-color);
     cursor: pointer;
+
+    padding: 16px 32px;
+    min-width: 169px;
+
+    margin-bottom: 188px;
 }
 
 .main-btn:hover,
 .main-btn:focus{
     background: var(--hover-color);
 }
+
+/* -------------properities--------------------- */
+
 
 .prop-heading{
     font-weight: 500;
@@ -127,6 +174,8 @@ body{
    
     letter-spacing: 0.02em;
     color: var(--main-color-dark);
+
+    padding-top: 120px;
 }
 
 .prop-p{
@@ -135,7 +184,11 @@ body{
     line-height: 1.5;
 
     letter-spacing: 0.02em;
+
+    padding-bottom: 120px;
 }
+
+/* ------------what we are doing----------- */
 
 .occupation-heading{
     font-weight: 700;
@@ -146,10 +199,21 @@ body{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--main-color-dark);
+
+    margin-bottom: 72px;
 }
+
+img{
+    display: block;
+}
+
+/*-----------Our team-----------------  */
+
 
 .team-page{
     background-color: var(--second-main-color);
+
+    padding-top: 120px;
 }
 
 
@@ -162,10 +226,14 @@ body{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--main-color-dark);
+
+    margin-bottom: 72px;
 }
 
 .card{
     background-color: var(--main-color);
+
+    
 }
 
 .card-name{
@@ -176,6 +244,9 @@ body{
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--main-color-dark);
+
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .card-descr{
@@ -186,18 +257,26 @@ body{
     letter-spacing: 0.02em;
 
     color: var(--main-text-color);
+
+    padding-bottom: 32px;
 }
 
+/* ----------footer page----------- */
 .footer{
-    width: 1440px;
+    /* width: 1440px;
     height: 312px;
     left: 0px;
-    top: 2280px;
+    top: 2280px; */
 
     background: var(--main-color-dark);
 }
 
 .footer-logo{
+    padding-top: 101.5px;
+    margin-bottom: 17.5px;
+}
+
+.footer-logo-color{
     color: var(--second-main-color);
 }
 
@@ -212,9 +291,12 @@ body{
     letter-spacing: 0.02em;
 
     color: var(--second-main-color);
+
+    padding-bottom: 100px;
 }
 
-/* portfolio page */
+
+/* -----------------------portfolio page----------------- */
 /* buttons */
 .offer-btn{
 
